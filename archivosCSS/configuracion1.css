@@ -1,0 +1,54 @@
+/* configuracion de las imagenes y texto de la pagina principal*/
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #FF0000; 
+    background-color: black; 
+    padding: 10px;
+    margin: 0; 
+}
+
+.bloqueFotos> {/*  */
+    margin: 20px 0; 
+}
+
+/* Estilos para la galería */
+.galeriaFotos {
+    width: 100%;
+    display: flex; /*deja que se muevan */
+    flex-wrap: nowrap; /*linea de fotos wrap  */
+    overflow-x: auto; 
+    overflow-y: hidden;
+    padding: 10px; 
+    box-sizing: border-box;
+    height: 333px; 
+}
+
+/* Estilos para las imágenes en la galería */
+.galeriaFotos a {
+    width: 100%;
+    display: block; /*fotos con link */
+    margin: 10px; 
+}
+
+.galeriaFotos img {
+    width: 100%;
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; /* manriene el msimo tamaño */
+
+}
+
+/* Estilos para la barra de desplazamiento */
+.galeriaFotos::-webkit-scrollbar {
+    height: 10px; /*altura */
+    background-color: #937affe0;
+}
+
+.galeriaFotos::-webkit-scrollbar-thumb {  
+    background-color: #3306fae0;
+    border-radius: 40px;/*pa que se vea redondo */
+}
+
+
+

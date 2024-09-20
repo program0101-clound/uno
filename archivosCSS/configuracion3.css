@@ -1,0 +1,19 @@
+/* configuracion de cada foto  */
+
+.FotoDescripcion {
+    text-align: center; 
+    margin-bottom: 30px; /* Aumenta el margen inferior */
+}
+
+.FotoDescripcion p {
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    font-size: 16px; 
+}
+
+.FotoDescripcion img {
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+}
+

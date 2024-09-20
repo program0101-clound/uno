@@ -1,0 +1,25 @@
+/* Configuracion de las paginas de arriva paginas1 paginas2 paginas3  */
+
+.PaqueteDeFotos {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.galeriaFotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.FotoDescripcion {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.FotoDescripcion img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
